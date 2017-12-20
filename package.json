@@ -1,0 +1,25 @@
+{
+  "name": "slimcoin-paper-wallet",
+  "version": "0.0.0",
+  "description": "deterministic paper wallet",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ksdme/slimcoin-paper-wallet.git"
+  },
+  "keywords": [
+    "paper-wallet",
+    "slm",
+    "crypto",
+    "cool"
+  ],
+  "author": "ksdme",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ksdme/slimcoin-paper-wallet/issues"
+  },
+  "homepage": "https://github.com/ksdme/slimcoin-paper-wallet"
+}
