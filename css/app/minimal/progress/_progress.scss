@@ -1,0 +1,8 @@
+$minimal-progress-color: rgba(16,16,16, 0.2);
+
+.minimal {
+	.mprogress {
+		border-radius: 0px;
+    background: $minimal-progress-color;
+	}
+}

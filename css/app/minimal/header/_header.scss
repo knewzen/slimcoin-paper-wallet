@@ -1,0 +1,8 @@
+$minimal-header-vpadding: 25px;
+
+.minimal {
+	.mheader {
+		padding-top: $minimal-header-vpadding;
+		padding-bottom: $minimal-header-vpadding;
+	}
+}

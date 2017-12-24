@@ -1,0 +1,5 @@
+# ignore sass_cache
+*.sass-cache/
+
+# ignore node_modules
+node_modules/

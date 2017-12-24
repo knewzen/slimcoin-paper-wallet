@@ -1,0 +1,17 @@
+$minimal-base-theme-color: rgb(255, 255, 255);
+$minimal-base-complement-color: rgb(0, 0, 0);
+$minimal-base-font-family: 'Bungee', cursive;
+// Earlier: 'Archivo Black', sans-serif;
+
+.minimal {
+  font-family: $minimal-base-font-family;
+}
+
+@import "./text/text";
+@import "./button/button";
+@import "./header/header";
+@import "./highlight/highlight";
+@import "./progress/progress";
+@import "./message/message";
+@import "./utils/utils";
+@import "./misc";

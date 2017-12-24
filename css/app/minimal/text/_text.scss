@@ -1,0 +1,18 @@
+$minimal-text-padding: 6px;
+$minimal-text-font-size: 1em;
+
+.minimal {
+
+  .mtext {
+    padding: $minimal-text-padding;
+    background: $minimal-base-theme-color;
+    font-size: $minimal-text-font-size;
+    font-family: $minimal-base-font-family;
+    color: $minimal-base-complement-color;
+
+    &.minverted {
+      background: $minimal-base-complement-color;
+      color: $minimal-base-theme-color;
+    }
+  }
+}

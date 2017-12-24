@@ -1,0 +1,8 @@
+@import "../utils/utils";
+
+.minimal {
+  .mmessage {
+    @extend .mno-radius;
+    font-family: "Monospace";
+  }
+}

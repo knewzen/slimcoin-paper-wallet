@@ -1,0 +1,27 @@
+{
+    "plugins": [
+        "react"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "env": {
+        "es6":     true,
+        "browser": true,
+        "node":    true
+    },   
+    "extends": [
+        "eslint:recommended", 
+        "plugin:react/recommended"
+    ],    
+    "rules": {
+    	"semi": ["error", "always"],
+    	"comma-dangle": ["error", "always"],
+        "react/prop-types": [0, "always"],
+        "no-console": [0, {}]
+    }
+}

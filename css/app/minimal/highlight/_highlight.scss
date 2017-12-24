@@ -1,0 +1,12 @@
+$minimal-highlight-color: rgba(16,16,16, 0.04);
+$minimal-highlight-padding: 8px;
+
+.minimal {
+	.mhighlight {
+    background: $minimal-highlight-color;
+    padding: $minimal-highlight-padding;
+	  color: black;
+    font-family: 'Monospace';
+    word-wrap: break-word;
+  }
+}

@@ -1,0 +1,22 @@
+$minimal-button-opt-padding-start: 10px;
+
+.mbutton {
+  @extend .mtext;
+}
+
+.minimal {
+  
+  .mbutton:hover {
+    background: $minimal-base-complement-color;
+    color: $minimal-base-theme-color;
+  
+    &.minverted:hover {
+      background: $minimal-base-theme-color;
+      color: $minimal-base-complement-color;
+    }
+  }
+
+  .mbutton.mpadded {
+    margin-left: $minimal-button-opt-padding-start;
+  }
+}
